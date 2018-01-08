@@ -3,12 +3,24 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://lemonar.github.io/posts/about-my-blog/</loc>
+    <lastmod>2018-01-09T05:19:29+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://lemonar.github.io/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://lemonar.github.io/</loc>
+    <lastmod>2018-01-09T05:19:29+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lemonar.github.io/posts/</loc>
+    <lastmod>2018-01-09T05:19:29+09:00</lastmod>
     <priority>0</priority>
   </url>
   
