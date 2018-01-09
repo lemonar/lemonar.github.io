@@ -1,0 +1,6 @@
+#!/bin/bash
+hugo
+cd public && git add -A && git commit -m 'Add an article'
+cd .. && git add -A && git commit -m 'Add an article'
+git push origin develop
+git push origin master
