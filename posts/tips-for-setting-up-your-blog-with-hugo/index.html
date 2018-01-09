@@ -3,8 +3,8 @@
 <head>
   
   <meta charset="utf-8">
-  <title>Posts</title>
-  <meta name="description" content="Posts">
+  <title>Tips for Setting Up Your Blog With Hugo 2018</title>
+  <meta name="description" content="Tips for Setting Up Your Blog With Hugo 2018">
   <meta name="author" content="">
   
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -336,8 +336,6 @@ body {
 
   
   
-  <link href="https://lemonar.github.io/posts/index.xml" rel="alternate" type="application/rss+xml" title="Lemonario Feed" />
-  
 
   <meta name="generator" content="Hugo 0.32.2" />
 
@@ -383,43 +381,51 @@ body {
 </div>
 
 
-
 <div class="pure-g">
   <div class="pure-u-1-24 pure-u-md-1-6"></div>
   <div class="pure-u-11-12 pure-u-md-2-3">
-    <div class="post-content">
-      <p class="posts-name">Posts:</p>
+    <div class="post">
 
-      <ul class="posts">
+      <div class="post-title">
+        <p class="footnote">
+        <time class="">01-09-2018</time>
         
         
         
-        <li>
-          
-          <a class="post-list" href="https://lemonar.github.io/posts/tips-for-setting-up-your-blog-with-hugo/">Tips for Setting Up Your Blog With Hugo 2018</a>
 
-          <p class="footnote">
-          <time datetime="01-09-2018">
-            01-09-2018
-          </time>
-          </p>
-        </li>
         
-        
-        
-        <li>
-          
-          <a class="post-list" href="https://lemonar.github.io/posts/about-my-blog/">About My Blog</a>
 
-          <p class="footnote">
-          <time datetime="01-09-2018">
-            01-09-2018
-          </time>
-          </p>
-        </li>
         
+        </p>
+        <h1>Tips for Setting Up Your Blog With Hugo 2018</h1>
+      </div>
+
+      <div class="post-content">
         
-      </ul>
+
+<p>There are many open source softwares for making a blog. Particularly, <strong>Hugo</strong> is becomming a first option when we make our blog without any dynamic softwares like WordPress. As far as I remember there is also a product named Octopress, but its development is stopped from 2015.</p>
+
+<p>There are 2 useful tips when you make an actual blog with Hugo and GitHub Pages:</p>
+
+<h2 id="use-snap-for-installation-for-linux-users">Use snap for installation (for Linux users)</h2>
+
+<p>Snapcraft is a relatively new package system for Linux. It&rsquo;s easy to use and providing faster installation time compared to install via Go or options.</p>
+
+<pre><code>snap install hugo
+</code></pre>
+
+<h2 id="do-not-commit-raw-contents-to-master">Do not commit raw contents to master</h2>
+
+<p>If you want to make a GitHub user&rsquo;s page, you will be affected by the limits that GitHub Pages only allows using master branch for deploying. So that I recommend following steps.</p>
+
+<ol>
+<li>Clear all files inside master branch and make an empty commit.</li>
+<li>Switch to develop branch, then <code>git worktree add -B master public</code></li>
+</ol>
+
+<p>Step 2 mounts master branch as <code>/public</code> directory.</p>
+
+      </div>
     </div>
   </div>
   <div class="pure-u-1-24 pure-u-md-1-6"></div>
@@ -441,7 +447,7 @@ body {
 
         </ul>
         <a href="#" class="pure-menu-link pull-right" id="gototop-btn">↑↑</a>
-        <a href="https://lemonar.github.io/posts/index.xml" class="pure-menu-link pull-right">RSS</a>
+        <a href="" class="pure-menu-link pull-right">RSS</a>
       </div>
       
     </div>
