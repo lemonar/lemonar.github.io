@@ -6,10 +6,21 @@
     <description>Recent content on Lemonario</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 09 Jan 2018 17:50:19 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 10 Jan 2018 00:38:33 +0900</lastBuildDate>
     
 	<atom:link href="https://lemonar.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Sine, Cosine, Tangent</title>
+      <link>https://lemonar.github.io/posts/sine-cosine-tangent/</link>
+      <pubDate>Wed, 10 Jan 2018 00:38:33 +0900</pubDate>
+      
+      <guid>https://lemonar.github.io/posts/sine-cosine-tangent/</guid>
+      <description>Algebraic values     \( 0\degree \) \( 30\degree \) \( 45\degree \) \( 60\degree \) \( 90\degree \)     \(\sin\) 0 \( \frac{1}{2} \) \(\frac{\sqrt{2}}{2}\) \(\frac{\sqrt{3}}{2}\) 1   \(\cos\) 1 \( \frac{\sqrt{3}}{2} \) \(\frac{\sqrt{2}}{2}\) \(\frac{1}{2}\) 0   \(\tan\) 0 \( \frac{\sqrt{3}}{3} \) \( 1 \) \(\sqrt{3}\) nan    Basis of trigonometric functions $$ \sin^2\theta+\cos^2\theta=1 $$
+$$ \tan\theta=\frac{\sin\theta}{\cos\theta} $$
+Sum and difference $$ \sin(\alpha+\beta)=\sin\alpha\cos\beta+\cos\alpha\sin\beta $$</description>
+    </item>
     
     <item>
       <title>Tips for Setting Up Your Blog With Hugo 2018</title>

@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://lemonar.github.io/posts/sine-cosine-tangent/</loc>
+    <lastmod>2018-01-10T00:38:33+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://lemonar.github.io/posts/tips-for-setting-up-your-blog-with-hugo/</loc>
     <lastmod>2018-01-09T17:50:19+09:00</lastmod>
   </url>
@@ -19,13 +24,13 @@
   
   <url>
     <loc>https://lemonar.github.io/</loc>
-    <lastmod>2018-01-09T17:50:19+09:00</lastmod>
+    <lastmod>2018-01-10T00:38:33+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://lemonar.github.io/posts/</loc>
-    <lastmod>2018-01-09T17:50:19+09:00</lastmod>
+    <lastmod>2018-01-10T00:38:33+09:00</lastmod>
     <priority>0</priority>
   </url>
   
